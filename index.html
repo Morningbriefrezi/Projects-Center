@@ -1102,7 +1102,7 @@ function renderDashboard() {
   const avgPct = total>0 ? Math.round(D.reduce((s,p)=>s+p.progress,0)/total) : 0;
   const now = new Date();
   const h = now.getHours();
-  const greet = h<12?'Good morning,':h<18?'Good afternoon,':'Good evening,';
+  
   const dayStr = now.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
   const recent = D.slice(0,6);
   const tgProjects = D.filter(p=>p.tgEnabled).length;
