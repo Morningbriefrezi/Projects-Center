@@ -84,6 +84,96 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
+/* Mobile overlay for sidebar */
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 99;
+  backdrop-filter: blur(2px);
+}
+.sidebar-overlay.active { display: block; }
+
+/* Mobile menu button */
+.mobile-menu-btn {
+  display: none;
+  align-items: center; justify-content: center;
+  width: 36px; height: 36px; border-radius: var(--r-sm);
+  background: var(--bg2); border: 1px solid var(--border);
+  cursor: pointer; font-size: 18px; color: var(--text);
+  flex-shrink: 0;
+}
+
+/* Bottom nav bar for mobile */
+.mobile-bottom-nav {
+  display: none;
+  position: fixed; bottom: 0; left: 0; right: 0;
+  background: var(--surface); border-top: 1px solid var(--border);
+  padding: 8px 0 env(safe-area-inset-bottom, 8px);
+  z-index: 50;
+  gap: 0;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.mobile-nav-item {
+  flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 3px; padding: 6px 4px; border: none; background: none; cursor: pointer;
+  color: var(--text3); font-family: var(--font); font-size: 10px; font-weight: 500;
+  transition: color 0.15s; min-width: 0; position: relative;
+}
+.mobile-nav-item.active { color: var(--blue); }
+.mobile-nav-item .mni-icon { font-size: 20px; line-height: 1; }
+.mobile-nav-item .mni-label { font-size: 10px; line-height: 1; white-space: nowrap; }
+.mobile-nav-badge {
+  position: absolute; top: 4px; right: 50%; transform: translateX(10px);
+  background: var(--red); color: white; border-radius: 10px;
+  font-size: 9px; font-family: var(--mono); font-weight: 700;
+  padding: 1px 4px; min-width: 14px; text-align: center;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-btn { display: flex; }
+  .mobile-bottom-nav { display: flex; }
+  html, body { overflow: hidden; }
+  .app { grid-template-columns: 1fr !important; }
+  .sidebar {
+    position: fixed; left: -280px; top: 0; bottom: 0; width: 280px;
+    z-index: 100; transition: left 0.28s cubic-bezier(0.4,0,0.2,1);
+  }
+  .sidebar.open { left: 0; }
+  .main { height: 100vh; overflow: hidden; }
+  .content { padding: 16px 14px 80px !important; }
+  .topbar { padding: 0 14px; gap: 8px; }
+  .topbar-crumb { display: none; }
+  .topbar-divider { display: none; }
+  .dash-kpis { grid-template-columns: 1fr 1fr !important; gap: 10px !important; }
+  .detail-kpis { grid-template-columns: 1fr 1fr !important; }
+  .detail-grid { grid-template-columns: 1fr !important; }
+  .project-cards { grid-template-columns: 1fr !important; }
+  .dash-greeting { font-size: 20px !important; }
+  .dash-hero { padding: 18px 16px !important; }
+  .detail-header { padding: 18px 16px !important; }
+  .detail-top { flex-wrap: wrap; gap: 10px; }
+  .detail-actions { width: 100%; justify-content: flex-start !important; }
+  .detail-title { font-size: 18px !important; }
+  .view-tabs { display: none; }
+  .btn-sm { padding: 6px 10px; font-size: 12px; }
+  .tb-actions-wrap { gap: 4px !important; }
+  #tb-actions { gap: 4px !important; }
+  #tb-actions .btn { padding: 6px 8px; font-size: 12px; }
+  /* Better touch targets */
+  .nav-item { min-height: 44px; }
+  .task-check { width: 24px; height: 24px; }
+  .task-item { padding: 13px 16px; }
+  /* Modal mobile */
+  .modal { max-width: 100% !important; border-radius: var(--r-lg) var(--r-lg) 0 0 !important; position: fixed; bottom: 0; left: 0; right: 0; top: auto !important; max-height: 90vh; overflow-y: auto; }
+  .overlay { align-items: flex-end !important; }
+  .pcard { padding: 16px; }
+  .slider-row { flex-direction: column; align-items: stretch; gap: 8px; }
+  .pct-box { width: 80px; align-self: flex-end; }
+}
+
 /* ═══════════════════════════════════════════
    LAYOUT
 ═══════════════════════════════════════════ */
@@ -281,8 +371,6 @@ body {
 .pcard-badges { display: flex; gap: 5px; align-items: center; }
 .pcard-badge { font-family: var(--mono); font-size: 10px; padding: 3px 8px; border-radius: 20px; font-weight: 500; white-space: nowrap; }
 .badge-daily  { background: var(--amber-lt); color: var(--amber); }
-.badge-weekly { background: var(--blue-lt);  color: var(--blue); }
-.badge-monthly{ background: var(--purple-lt);color: var(--purple); }
 .badge-tg { background: var(--telegram-lt); color: var(--telegram); font-size: 9px; padding: 2px 6px; }
 
 .pcard-name { font-size: 15px; font-weight: 700; margin-bottom: 5px; letter-spacing: -0.2px; }
@@ -796,6 +884,29 @@ body {
 </div>
 
 <!-- ═══════ APP ═══════ -->
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+
+<!-- Mobile bottom nav -->
+<nav class="mobile-bottom-nav">
+  <button class="mobile-nav-item active" id="mni-dashboard" onclick="goView('dashboard');setMobileNav('dashboard')">
+    <span class="mni-icon">⊞</span><span class="mni-label">Home</span>
+  </button>
+  <button class="mobile-nav-item" id="mni-all" onclick="goView('all');setMobileNav('all')">
+    <span class="mni-icon">◈</span><span class="mni-label">Projects</span>
+  </button>
+  <button class="mobile-nav-item" id="mni-add" onclick="openAdd()">
+    <span class="mni-icon" style="width:36px;height:36px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-size:22px;margin-bottom:0">+</span>
+    <span class="mni-label">New</span>
+  </button>
+  <button class="mobile-nav-item" id="mni-overdue" onclick="goView('overdue');setMobileNav('overdue')">
+    <span class="mni-icon">⚠️</span><span class="mni-label">Overdue</span>
+    <span class="mobile-nav-badge" id="mnb-overdue" style="display:none">0</span>
+  </button>
+  <button class="mobile-nav-item" id="mni-settings" onclick="openSettings('tab-telegram')">
+    <span class="mni-icon">⚙️</span><span class="mni-label">Settings</span>
+  </button>
+</nav>
+
 <div class="app">
 
   <!-- SIDEBAR -->
@@ -841,16 +952,6 @@ body {
           <span class="nav-label">Daily</span>
           <span class="nav-badge" id="nb-daily">0</span>
         </button>
-        <button class="nav-item" id="nav-weekly" onclick="goView('weekly')">
-          <div class="nav-icon">📅</div>
-          <span class="nav-label">Weekly</span>
-          <span class="nav-badge" id="nb-weekly">0</span>
-        </button>
-        <button class="nav-item" id="nav-monthly" onclick="goView('monthly')">
-          <div class="nav-icon">🗓</div>
-          <span class="nav-label">Monthly</span>
-          <span class="nav-badge" id="nb-monthly">0</span>
-        </button>
       </div>
 
       <div class="nav-section">
@@ -894,6 +995,7 @@ body {
   <!-- MAIN -->
   <div class="main">
     <div class="topbar">
+      <button class="mobile-menu-btn" onclick="openSidebar()">☰</button>
       <div class="topbar-title" id="tb-title">Dashboard</div>
       <div class="topbar-divider"></div>
       <div class="topbar-crumb" id="tb-crumb">Overview</div>
@@ -1010,13 +1112,14 @@ function clamp(v) { return Math.min(100, Math.max(0, parseInt(v)||0)); }
 function updateSidebar() {
   document.getElementById('nb-all').textContent = D.length;
   document.getElementById('nb-daily').textContent = D.filter(p=>p.type==='daily').length;
-  document.getElementById('nb-weekly').textContent = D.filter(p=>p.type==='weekly').length;
-  document.getElementById('nb-monthly').textContent = D.filter(p=>p.type==='monthly').length;
   document.getElementById('nb-done').textContent = D.filter(p=>p.progress>=100).length;
   const over = D.filter(p=>p.due && p.progress<100 && new Date(p.due+'T00:00:00')<new Date()).length;
   document.getElementById('nb-overdue').textContent = over;
   const ob = document.getElementById('nb-overdue');
   ob.className = over > 0 ? 'nav-badge danger' : 'nav-badge';
+  // Mobile badge
+  const mnbOver = document.getElementById('mnb-overdue');
+  if(mnbOver) { mnbOver.style.display = over>0?'block':'none'; mnbOver.textContent=over; }
 
   const list = document.getElementById('sidebar-project-list');
   list.innerHTML = D.map(p=>`
@@ -1028,7 +1131,7 @@ function updateSidebar() {
     </button>`).join('') || `<div style="padding:8px 10px;font-size:12px;color:var(--sidebar-t3)">No projects yet.</div>`;
 
   document.querySelectorAll('.nav-item[id^="nav-"]').forEach(n=>n.classList.remove('active'));
-  const navMap = {dashboard:'nav-dashboard',all:'nav-all',daily:'nav-daily',weekly:'nav-weekly',monthly:'nav-monthly',done:'nav-done',overdue:'nav-overdue'};
+  const navMap = {dashboard:'nav-dashboard',all:'nav-all',daily:'nav-daily',done:'nav-done',overdue:'nav-overdue'};
   if(view in navMap) document.getElementById(navMap[view])?.classList.add('active');
 
   // GitHub status
@@ -1046,10 +1149,12 @@ function updateSidebar() {
 // ══════════════════════════════════════════════════════════
 function goView(v) {
   view = v; activeProject = null;
+  closeSidebar();
   updateSidebar(); renderContent();
 }
 function goProject(id) {
   activeProject = id; view = 'project';
+  closeSidebar();
   updateSidebar(); renderContent();
 }
 function renderContent() {
@@ -1072,7 +1177,7 @@ function renderContent() {
       <button class="btn btn-danger btn-sm" onclick="openDel(${p.id})">🗑</button>`;
     el.innerHTML = renderDetail(p);
   } else {
-    const viewTitles = {all:'All Projects',daily:'Daily Tasks',weekly:'Weekly Projects',monthly:'Monthly Projects',done:'Completed',overdue:'Overdue'};
+    const viewTitles = {all:'All Projects',daily:'Daily Tasks',done:'Completed',overdue:'Overdue'};
     tb.textContent = viewTitles[view]||'Projects';
     crumb.textContent = `${D.filter(p=>filterProjects(p,view)).length} projects`;
     el.innerHTML = renderList(view);
@@ -1193,8 +1298,8 @@ function pcardHTML(p) {
     <div class="pcard-top">
       <div class="pcard-icon" style="background:${hexAlpha(col,0.12)}">${p.icon||'📌'}</div>
       <div class="pcard-badges">
-        <span class="pcard-badge ${typeBadgeClass(p.type)}">${typeLabel(p.type)}</span>
         ${p.tgEnabled?'<span class="pcard-badge badge-tg">✈️ Reminders</span>':''}
+        ${due?`<span class="due-chip ${due.cls}" style="font-size:11px;padding:3px 8px">📅 ${due.txt}</span>`:''}
       </div>
     </div>
     <div class="pcard-name">${esc(p.name)}</div>
@@ -1209,7 +1314,6 @@ function pcardHTML(p) {
         <div class="pcard-pill-dot" style="background:${col}"></div>
         ${doneTasks}/${totalTasks} tasks
       </div>
-      ${due?`<span class="due-chip ${due.cls}">📅 ${due.txt}</span>`:''}
       <span style="margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--text3);padding:2px 8px;background:var(--bg2);border-radius:20px;border:1px solid var(--border)">${p.priority||'med'}</span>
     </div>
   </div>`;
@@ -1240,7 +1344,6 @@ function renderDetail(p) {
         </div>
         <div class="detail-actions">
           ${due?`<span class="due-chip ${due.cls}">📅 ${due.txt}</span>`:''}
-          <span class="pcard-badge ${typeBadgeClass(p.type)}" style="font-size:11px;padding:4px 10px">${typeLabel(p.type)}</span>
         </div>
       </div>
 
@@ -1905,6 +2008,23 @@ function migrateOldData() {
     } catch(e) {}
   }
 }
+// ══════════════════════════════════════════════════════════
+//  MOBILE SIDEBAR
+// ══════════════════════════════════════════════════════════
+function openSidebar() {
+  document.querySelector('.sidebar').classList.add('open');
+  document.getElementById('sidebarOverlay').classList.add('active');
+}
+function closeSidebar() {
+  document.querySelector('.sidebar').classList.remove('open');
+  document.getElementById('sidebarOverlay').classList.remove('active');
+}
+function setMobileNav(v) {
+  document.querySelectorAll('.mobile-nav-item').forEach(b=>b.classList.remove('active'));
+  const el = document.getElementById('mni-'+v);
+  if(el) el.classList.add('active');
+}
+
 migrateOldData();
 
 // ══════════════════════════════════════════════════════════
