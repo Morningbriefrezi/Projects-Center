@@ -9,7 +9,7 @@
       "priority": "high",
       "color": "#2563EB",
       "icon": "📌",
-      "progress": 0,
+      "progress": 15,
       "tasks": [],
       "notes": "",
       "created": 1772312387968,
@@ -21,6 +21,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Progress updated to <strong>15%</strong> on \"Ai company\"",
+      "color": "#2563EB",
+      "time": 1772356448157
+    },
     {
       "msg": "Deleted project <strong>\"test\"</strong>",
       "color": "#DC2626",
