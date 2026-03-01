@@ -30,6 +30,10 @@
         {
           "name": "5 cosmonaut decoration",
           "done": false
+        },
+        {
+          "name": "5. kids toy",
+          "done": false
         }
       ],
       "notes": "",
@@ -289,6 +293,11 @@
   ],
   "activity": [
     {
+      "msg": "Added task <strong>\"5. kids toy\"</strong> to \"Content For Week\"",
+      "color": "#111111",
+      "time": 1772404784616
+    },
+    {
       "msg": "Added task <strong>\"5 cosmonaut decoration\"</strong> to \"Content For Week\"",
       "color": "#111111",
       "time": 1772404779562
@@ -532,11 +541,6 @@
       "msg": "Added task <strong>\"Ads manager &business suite\"</strong> to \"Ai company\"",
       "color": "#2563EB",
       "time": 1772356872217
-    },
-    {
-      "msg": "Added task <strong>\"marketing plan\"</strong> to \"Ai company\"",
-      "color": "#2563EB",
-      "time": 1772356826351
     }
   ]
 }
