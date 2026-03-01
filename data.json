@@ -26,6 +26,10 @@
         {
           "name": "business suite and ads manager",
           "done": false
+        },
+        {
+          "name": "first moth marketing plan",
+          "done": false
         }
       ],
       "notes": "",
@@ -201,6 +205,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"first moth marketing plan\"</strong> to \"Inventory Company\"",
+      "color": "#E11D48",
+      "time": 1772361532740
+    },
     {
       "msg": "Added task <strong>\"business suite and ads manager\"</strong> to \"Inventory Company\"",
       "color": "#E11D48",
@@ -445,11 +454,6 @@
       "msg": "Stage set to <strong>Planning</strong> on \"Ai company\"",
       "color": "#2563EB",
       "time": 1772312396413
-    },
-    {
-      "msg": "Created project <strong>\"Ai company\"</strong>",
-      "color": "#2563EB",
-      "time": 1772312387968
     }
   ]
 }
