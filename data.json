@@ -197,7 +197,7 @@
       "priority": "high",
       "color": "#D97706",
       "icon": "💪",
-      "progress": 25,
+      "progress": 22,
       "tasks": [
         {
           "name": "Create website",
@@ -229,6 +229,10 @@
         },
         {
           "name": "add forgot password option",
+          "done": false
+        },
+        {
+          "name": "check matematics and new registration.",
           "done": false
         }
       ],
@@ -317,6 +321,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"check matematics and new registration.\"</strong> to \"Astroman Loyal Club\"",
+      "color": "#D97706",
+      "time": 1772404893095
+    },
     {
       "msg": "Added task <strong>\"ask claude how to improve system of the web\"</strong> to \"Current Website Update\"",
       "color": "#7C3AED",
@@ -561,11 +570,6 @@
       "msg": "Updated project <strong>\"Ai company\"</strong>",
       "color": "#2563EB",
       "time": 1772357050214
-    },
-    {
-      "msg": "Created project <strong>\"Auto Content Creator\"</strong>",
-      "color": "#16A34A",
-      "time": 1772357035349
     }
   ]
 }
