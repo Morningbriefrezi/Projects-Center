@@ -252,7 +252,7 @@
       "due": "2026-03-15",
       "priority": "med",
       "color": "#2563EB",
-      "icon": "📌",
+      "icon": "✏️",
       "progress": 0,
       "tasks": [],
       "notes": "",
@@ -321,6 +321,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Updated project <strong>\"Auto Content Creator\"</strong>",
+      "color": "#2563EB",
+      "time": 1772406729001
+    },
     {
       "msg": "Updated project <strong>\"Night Skywatcher\"</strong>",
       "color": "#2563EB",
@@ -565,11 +570,6 @@
       "msg": "Added task <strong>\"integrate with my website\"</strong> to \"Night Skywatcher\"",
       "color": "#D97706",
       "time": 1772361413930
-    },
-    {
-      "msg": "Added task <strong>\"test everything\"</strong> to \"Night Skywatcher\"",
-      "color": "#D97706",
-      "time": 1772361406842
     }
   ]
 }
