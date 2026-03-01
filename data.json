@@ -195,7 +195,7 @@
       "type": "weekly",
       "due": "2026-03-10",
       "priority": "high",
-      "color": "#D97706",
+      "color": "#2563EB",
       "icon": "💪",
       "progress": 22,
       "tasks": [
@@ -321,6 +321,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Updated project <strong>\"Astroman Loyal Club\"</strong>",
+      "color": "#2563EB",
+      "time": 1772406599672
+    },
     {
       "msg": "Updated project <strong>\"Night Skywatcher\"</strong>",
       "color": "#2563EB",
@@ -565,11 +570,6 @@
       "msg": "Completed task <strong>\"Create website\"</strong>",
       "color": "#D97706",
       "time": 1772361309583
-    },
-    {
-      "msg": "Added task <strong>\"Create deployment marketing plan\"</strong> to \"Astroman Loyal Club\"",
-      "color": "#D97706",
-      "time": 1772361302801
     }
   ]
 }
