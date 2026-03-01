@@ -9,8 +9,13 @@
       "priority": "high",
       "color": "#D97706",
       "icon": "💪",
-      "progress": 70,
-      "tasks": [],
+      "progress": 0,
+      "tasks": [
+        {
+          "name": "Create website",
+          "done": false
+        }
+      ],
       "notes": "",
       "created": 1772361025657,
       "reminder": {
@@ -96,6 +101,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"Create website\"</strong> to \"Astroman Loyal Club\"",
+      "color": "#D97706",
+      "time": 1772361031648
+    },
     {
       "msg": "Created project <strong>\"Astroman Loyal Club\"</strong>",
       "color": "#D97706",
