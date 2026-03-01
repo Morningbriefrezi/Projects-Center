@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id": 1772356761740,
+      "name": "test",
+      "desc": "test",
+      "type": "daily",
+      "due": "",
+      "priority": "med",
+      "color": "#2563EB",
+      "icon": "📌",
+      "progress": 0,
+      "tasks": [],
+      "notes": "",
+      "created": 1772356761740,
+      "reminder": {
+        "enabled": false,
+        "timing": "oneday",
+        "lastSent": null
+      }
+    },
+    {
       "id": 1772312387968,
       "name": "Ai company",
       "desc": "Ai",
@@ -21,6 +40,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Created project <strong>\"test\"</strong>",
+      "color": "#2563EB",
+      "time": 1772356761741
+    },
     {
       "msg": "Progress updated to <strong>0%</strong> on \"Ai company\"",
       "color": "#2563EB",
