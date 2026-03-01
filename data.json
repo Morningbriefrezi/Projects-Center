@@ -7,7 +7,7 @@
       "type": "weekly",
       "due": "2026-03-30",
       "priority": "high",
-      "color": "#111111",
+      "color": "#2563EB",
       "icon": "📌",
       "progress": 0,
       "tasks": [
@@ -322,6 +322,11 @@
   ],
   "activity": [
     {
+      "msg": "Updated project <strong>\"Content For Week\"</strong>",
+      "color": "#2563EB",
+      "time": 1772406574043
+    },
+    {
       "msg": "Completed task <strong>\"logo\"</strong>",
       "color": "#2563EB",
       "time": 1772405990090
@@ -565,11 +570,6 @@
       "msg": "Added task <strong>\"make it perfect.\"</strong> to \"Astroman Loyal Club\"",
       "color": "#D97706",
       "time": 1772361057681
-    },
-    {
-      "msg": "Added task <strong>\"build admin and dashboard page\"</strong> to \"Astroman Loyal Club\"",
-      "color": "#D97706",
-      "time": 1772361051144
     }
   ]
 }
