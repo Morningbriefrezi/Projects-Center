@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id": 1772361025657,
+      "name": "Astroman Loyal Club",
+      "desc": "Loyalty Club for astroman",
+      "type": "weekly",
+      "due": "2026-03-10",
+      "priority": "high",
+      "color": "#D97706",
+      "icon": "💪",
+      "progress": 70,
+      "tasks": [],
+      "notes": "",
+      "created": 1772361025657,
+      "reminder": {
+        "enabled": true,
+        "timing": "threedays",
+        "lastSent": null
+      }
+    },
+    {
       "id": 1772357035349,
       "name": "Auto Content Creator",
       "desc": "",
@@ -77,6 +96,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Created project <strong>\"Astroman Loyal Club\"</strong>",
+      "color": "#D97706",
+      "time": 1772361025658
+    },
     {
       "msg": "Updated project <strong>\"Ai company\"</strong>",
       "color": "#2563EB",
