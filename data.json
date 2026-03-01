@@ -22,6 +22,31 @@
   ],
   "activity": [
     {
+      "msg": "Progress updated to <strong>0%</strong> on \"Ai company\"",
+      "color": "#2563EB",
+      "time": 1772356450027
+    },
+    {
+      "msg": "Progress updated to <strong>4%</strong> on \"Ai company\"",
+      "color": "#2563EB",
+      "time": 1772356449422
+    },
+    {
+      "msg": "Progress updated to <strong>15%</strong> on \"Ai company\"",
+      "color": "#2563EB",
+      "time": 1772356448157
+    },
+    {
+      "msg": "Deleted project <strong>\"test\"</strong>",
+      "color": "#DC2626",
+      "time": 1772356361782
+    },
+    {
+      "msg": "Created project <strong>\"test\"</strong>",
+      "color": "#2563EB",
+      "time": 1772356293994
+    },
+    {
       "msg": "Stage set to <strong>Idea</strong> on \"Ai company\"",
       "color": "#2563EB",
       "time": 1772312399217
