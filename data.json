@@ -272,11 +272,11 @@
       "priority": "high",
       "color": "#2563EB",
       "icon": "📌",
-      "progress": 22,
+      "progress": 33,
       "tasks": [
         {
           "name": "name",
-          "done": false
+          "done": true
         },
         {
           "name": "logo",
@@ -321,6 +321,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Completed task <strong>\"name\"</strong>",
+      "color": "#2563EB",
+      "time": 1772405264993
+    },
     {
       "msg": "Updated project <strong>\"Advance AI\"</strong>",
       "color": "#2563EB",
@@ -565,11 +570,6 @@
       "msg": "Added task <strong>\"Create website\"</strong> to \"Astroman Loyal Club\"",
       "color": "#D97706",
       "time": 1772361031648
-    },
-    {
-      "msg": "Created project <strong>\"Astroman Loyal Club\"</strong>",
-      "color": "#D97706",
-      "time": 1772361025658
     }
   ]
 }
