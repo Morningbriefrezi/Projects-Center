@@ -26,6 +26,10 @@
         {
           "name": "5 projector",
           "done": false
+        },
+        {
+          "name": "5 cosmonaut decoration",
+          "done": false
         }
       ],
       "notes": "",
@@ -285,6 +289,11 @@
   ],
   "activity": [
     {
+      "msg": "Added task <strong>\"5 cosmonaut decoration\"</strong> to \"Content For Week\"",
+      "color": "#111111",
+      "time": 1772404779562
+    },
+    {
       "msg": "Added task <strong>\"5 projector\"</strong> to \"Content For Week\"",
       "color": "#111111",
       "time": 1772404774386
@@ -528,11 +537,6 @@
       "msg": "Added task <strong>\"marketing plan\"</strong> to \"Ai company\"",
       "color": "#2563EB",
       "time": 1772356826351
-    },
-    {
-      "msg": "Added task <strong>\"business plan\"</strong> to \"Ai company\"",
-      "color": "#2563EB",
-      "time": 1772356815292
     }
   ]
 }
