@@ -58,7 +58,12 @@
       "color": "#7C3AED",
       "icon": "📌",
       "progress": 0,
-      "tasks": [],
+      "tasks": [
+        {
+          "name": "add clubs page",
+          "done": false
+        }
+      ],
       "notes": "",
       "created": 1772361692835,
       "reminder": {
@@ -296,6 +301,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"add clubs page\"</strong> to \"Current Website Update\"",
+      "color": "#7C3AED",
+      "time": 1772404809779
+    },
     {
       "msg": "Added task <strong>\"5 random lamp\"</strong> to \"Content For Week\"",
       "color": "#111111",
@@ -540,11 +550,6 @@
       "msg": "Added task <strong>\"First ad\"</strong> to \"Ai company\"",
       "color": "#2563EB",
       "time": 1772356882872
-    },
-    {
-      "msg": "Added task <strong>\"website\"</strong> to \"Ai company\"",
-      "color": "#2563EB",
-      "time": 1772356875390
     }
   ]
 }
