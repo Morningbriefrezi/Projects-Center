@@ -55,7 +55,7 @@
       "type": "weekly",
       "due": "2026-03-15",
       "priority": "med",
-      "color": "#7C3AED",
+      "color": "#2563EB",
       "icon": "📌",
       "progress": 0,
       "tasks": [
@@ -322,6 +322,11 @@
   ],
   "activity": [
     {
+      "msg": "Updated project <strong>\"Current Website Update\"</strong>",
+      "color": "#2563EB",
+      "time": 1772406579197
+    },
+    {
       "msg": "Updated project <strong>\"Content For Week\"</strong>",
       "color": "#2563EB",
       "time": 1772406574043
@@ -565,11 +570,6 @@
       "msg": "Added task <strong>\"Manual Upload feature to add\"</strong> to \"Astroman Loyal Club\"",
       "color": "#D97706",
       "time": 1772361288929
-    },
-    {
-      "msg": "Added task <strong>\"make it perfect.\"</strong> to \"Astroman Loyal Club\"",
-      "color": "#D97706",
-      "time": 1772361057681
     }
   ]
 }
