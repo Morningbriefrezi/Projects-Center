@@ -22,6 +22,10 @@
         {
           "name": "soc medias",
           "done": false
+        },
+        {
+          "name": "business plan",
+          "done": false
         }
       ],
       "notes": "",
@@ -34,6 +38,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"business plan\"</strong> to \"Ai company\"",
+      "color": "#2563EB",
+      "time": 1772356815292
+    },
     {
       "msg": "Added task <strong>\"soc medias\"</strong> to \"Ai company\"",
       "color": "#2563EB",
