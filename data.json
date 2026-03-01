@@ -152,7 +152,7 @@
       "due": "2026-03-10",
       "priority": "med",
       "color": "#2563EB",
-      "icon": "📌",
+      "icon": "🌃",
       "progress": 50,
       "tasks": [
         {
@@ -321,6 +321,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Updated project <strong>\"Night Skywatcher\"</strong>",
+      "color": "#2563EB",
+      "time": 1772406711592
+    },
     {
       "msg": "Updated project <strong>\"Inventory Company\"</strong>",
       "color": "#2563EB",
@@ -565,11 +570,6 @@
       "msg": "Added task <strong>\"test everything\"</strong> to \"Night Skywatcher\"",
       "color": "#D97706",
       "time": 1772361406842
-    },
-    {
-      "msg": "Added task <strong>\"add different features\"</strong> to \"Night Skywatcher\"",
-      "color": "#D97706",
-      "time": 1772361402961
     }
   ]
 }
