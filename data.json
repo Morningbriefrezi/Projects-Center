@@ -9,11 +9,11 @@
       "priority": "med",
       "color": "#D97706",
       "icon": "📌",
-      "progress": 0,
+      "progress": 17,
       "tasks": [
         {
           "name": "cretate website",
-          "done": false
+          "done": true
         },
         {
           "name": "add different features",
@@ -165,6 +165,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Completed task <strong>\"cretate website\"</strong>",
+      "color": "#D97706",
+      "time": 1772361433109
+    },
     {
       "msg": "Added task <strong>\"deploy\"</strong> to \"Night Skywatcher\"",
       "color": "#D97706",
