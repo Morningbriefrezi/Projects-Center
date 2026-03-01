@@ -26,6 +26,10 @@
         {
           "name": "Manual Upload feature to add",
           "done": false
+        },
+        {
+          "name": "check if everything works",
+          "done": false
         }
       ],
       "notes": "",
@@ -113,6 +117,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"check if everything works\"</strong> to \"Astroman Loyal Club\"",
+      "color": "#D97706",
+      "time": 1772361295780
+    },
     {
       "msg": "Added task <strong>\"Manual Upload feature to add\"</strong> to \"Astroman Loyal Club\"",
       "color": "#D97706",
