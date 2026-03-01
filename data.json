@@ -30,6 +30,10 @@
         {
           "name": "marketing plan",
           "done": false
+        },
+        {
+          "name": "Ads manager &business suite",
+          "done": false
         }
       ],
       "notes": "",
@@ -42,6 +46,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"Ads manager &business suite\"</strong> to \"Ai company\"",
+      "color": "#2563EB",
+      "time": 1772356872217
+    },
     {
       "msg": "Added task <strong>\"marketing plan\"</strong> to \"Ai company\"",
       "color": "#2563EB",
