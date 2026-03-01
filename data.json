@@ -62,6 +62,10 @@
         {
           "name": "add clubs page",
           "done": false
+        },
+        {
+          "name": "add skywatcher page",
+          "done": false
         }
       ],
       "notes": "",
@@ -301,6 +305,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"add skywatcher page\"</strong> to \"Current Website Update\"",
+      "color": "#7C3AED",
+      "time": 1772404815697
+    },
     {
       "msg": "Added task <strong>\"add clubs page\"</strong> to \"Current Website Update\"",
       "color": "#7C3AED",
@@ -545,11 +554,6 @@
       "msg": "Added task <strong>\"First Client\"</strong> to \"Ai company\"",
       "color": "#2563EB",
       "time": 1772356886944
-    },
-    {
-      "msg": "Added task <strong>\"First ad\"</strong> to \"Ai company\"",
-      "color": "#2563EB",
-      "time": 1772356882872
     }
   ]
 }
