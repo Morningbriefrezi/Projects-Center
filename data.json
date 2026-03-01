@@ -34,6 +34,10 @@
         {
           "name": "5. kids toy",
           "done": false
+        },
+        {
+          "name": "5 random lamp",
+          "done": false
         }
       ],
       "notes": "",
@@ -293,6 +297,11 @@
   ],
   "activity": [
     {
+      "msg": "Added task <strong>\"5 random lamp\"</strong> to \"Content For Week\"",
+      "color": "#111111",
+      "time": 1772404793017
+    },
+    {
       "msg": "Added task <strong>\"5. kids toy\"</strong> to \"Content For Week\"",
       "color": "#111111",
       "time": 1772404784616
@@ -536,11 +545,6 @@
       "msg": "Added task <strong>\"website\"</strong> to \"Ai company\"",
       "color": "#2563EB",
       "time": 1772356875390
-    },
-    {
-      "msg": "Added task <strong>\"Ads manager &business suite\"</strong> to \"Ai company\"",
-      "color": "#2563EB",
-      "time": 1772356872217
     }
   ]
 }
