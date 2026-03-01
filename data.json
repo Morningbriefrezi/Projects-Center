@@ -151,7 +151,7 @@
       "type": "monthly",
       "due": "2026-03-10",
       "priority": "med",
-      "color": "#D97706",
+      "color": "#2563EB",
       "icon": "📌",
       "progress": 50,
       "tasks": [
@@ -321,6 +321,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Updated project <strong>\"Night Skywatcher\"</strong>",
+      "color": "#2563EB",
+      "time": 1772406594964
+    },
     {
       "msg": "Updated project <strong>\"Inventory Company\"</strong>",
       "color": "#2563EB",
@@ -565,11 +570,6 @@
       "msg": "Added task <strong>\"Create deployment marketing plan\"</strong> to \"Astroman Loyal Club\"",
       "color": "#D97706",
       "time": 1772361302801
-    },
-    {
-      "msg": "Added task <strong>\"check if everything works\"</strong> to \"Astroman Loyal Club\"",
-      "color": "#D97706",
-      "time": 1772361295780
     }
   ]
 }
