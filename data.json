@@ -1,25 +1,6 @@
 {
   "projects": [
     {
-      "id": 1772356761740,
-      "name": "test",
-      "desc": "test",
-      "type": "daily",
-      "due": "",
-      "priority": "med",
-      "color": "#2563EB",
-      "icon": "📌",
-      "progress": 0,
-      "tasks": [],
-      "notes": "",
-      "created": 1772356761740,
-      "reminder": {
-        "enabled": false,
-        "timing": "oneday",
-        "lastSent": null
-      }
-    },
-    {
       "id": 1772312387968,
       "name": "Ai company",
       "desc": "Ai",
@@ -40,6 +21,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Deleted project <strong>\"test\"</strong>",
+      "color": "#DC2626",
+      "time": 1772356783112
+    },
     {
       "msg": "Created project <strong>\"test\"</strong>",
       "color": "#2563EB",
