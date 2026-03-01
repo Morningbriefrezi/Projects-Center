@@ -8,7 +8,7 @@
       "due": "2026-03-30",
       "priority": "high",
       "color": "#2563EB",
-      "icon": "📌",
+      "icon": "📱",
       "progress": 0,
       "tasks": [
         {
@@ -322,6 +322,11 @@
   ],
   "activity": [
     {
+      "msg": "Updated project <strong>\"Content For Week\"</strong>",
+      "color": "#2563EB",
+      "time": 1772406618836
+    },
+    {
       "msg": "Updated project <strong>\"Auto Content Creator\"</strong>",
       "color": "#2563EB",
       "time": 1772406605001
@@ -565,11 +570,6 @@
       "msg": "Created project <strong>\"Night Skywatcher\"</strong>",
       "color": "#D97706",
       "time": 1772361382050
-    },
-    {
-      "msg": "Completed task <strong>\"build admin and dashboard page\"</strong>",
-      "color": "#D97706",
-      "time": 1772361311189
     }
   ]
 }
