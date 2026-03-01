@@ -9,7 +9,7 @@
       "priority": "high",
       "color": "#2563EB",
       "icon": "📌",
-      "progress": 15,
+      "progress": 0,
       "tasks": [],
       "notes": "",
       "created": 1772312387968,
@@ -21,6 +21,16 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Progress updated to <strong>0%</strong> on \"Ai company\"",
+      "color": "#2563EB",
+      "time": 1772356450027
+    },
+    {
+      "msg": "Progress updated to <strong>4%</strong> on \"Ai company\"",
+      "color": "#2563EB",
+      "time": 1772356449422
+    },
     {
       "msg": "Progress updated to <strong>15%</strong> on \"Ai company\"",
       "color": "#2563EB",
