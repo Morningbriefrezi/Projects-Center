@@ -56,7 +56,7 @@
       "due": "2026-03-15",
       "priority": "med",
       "color": "#2563EB",
-      "icon": "📌",
+      "icon": "🌍",
       "progress": 0,
       "tasks": [
         {
@@ -322,6 +322,11 @@
   ],
   "activity": [
     {
+      "msg": "Updated project <strong>\"Current Website Update\"</strong>",
+      "color": "#2563EB",
+      "time": 1772406647927
+    },
+    {
       "msg": "Updated project <strong>\"Content For Week\"</strong>",
       "color": "#2563EB",
       "time": 1772406618836
@@ -565,11 +570,6 @@
       "msg": "Added task <strong>\"cretate website\"</strong> to \"Night Skywatcher\"",
       "color": "#D97706",
       "time": 1772361392374
-    },
-    {
-      "msg": "Created project <strong>\"Night Skywatcher\"</strong>",
-      "color": "#D97706",
-      "time": 1772361382050
     }
   ]
 }
