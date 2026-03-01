@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id": 1772361382049,
+      "name": "Night Skywatcher",
+      "desc": "Sky watching app for astroman",
+      "type": "monthly",
+      "due": "2026-03-10",
+      "priority": "med",
+      "color": "#D97706",
+      "icon": "📌",
+      "progress": 0,
+      "tasks": [],
+      "notes": "",
+      "created": 1772361382049,
+      "reminder": {
+        "enabled": true,
+        "timing": "threedays",
+        "lastSent": null
+      }
+    },
+    {
       "id": 1772361025657,
       "name": "Astroman Loyal Club",
       "desc": "Loyalty Club for astroman",
@@ -121,6 +140,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Created project <strong>\"Night Skywatcher\"</strong>",
+      "color": "#D97706",
+      "time": 1772361382050
+    },
     {
       "msg": "Completed task <strong>\"build admin and dashboard page\"</strong>",
       "color": "#D97706",
