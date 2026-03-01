@@ -18,6 +18,10 @@
         {
           "name": "logo",
           "done": false
+        },
+        {
+          "name": "Social pages",
+          "done": false
         }
       ],
       "notes": "",
@@ -193,6 +197,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"Social pages\"</strong> to \"Inventory Company\"",
+      "color": "#E11D48",
+      "time": 1772361515324
+    },
     {
       "msg": "Added task <strong>\"logo\"</strong> to \"Inventory Company\"",
       "color": "#E11D48",
@@ -437,11 +446,6 @@
       "msg": "Deleted project <strong>\"Ai companu\"</strong>",
       "color": "#DC2626",
       "time": 1772312372683
-    },
-    {
-      "msg": "Created project <strong>\"Ai companu\"</strong>",
-      "color": "#2563EB",
-      "time": 1772312365003
     }
   ]
 }
