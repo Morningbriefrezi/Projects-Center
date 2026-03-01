@@ -272,7 +272,7 @@
       "priority": "high",
       "color": "#2563EB",
       "icon": "📌",
-      "progress": 33,
+      "progress": 44,
       "tasks": [
         {
           "name": "name",
@@ -280,7 +280,7 @@
         },
         {
           "name": "logo",
-          "done": false
+          "done": true
         },
         {
           "name": "soc medias",
@@ -321,6 +321,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Completed task <strong>\"logo\"</strong>",
+      "color": "#2563EB",
+      "time": 1772405990090
+    },
     {
       "msg": "Completed task <strong>\"name\"</strong>",
       "color": "#2563EB",
@@ -565,11 +570,6 @@
       "msg": "Added task <strong>\"build admin and dashboard page\"</strong> to \"Astroman Loyal Club\"",
       "color": "#D97706",
       "time": 1772361051144
-    },
-    {
-      "msg": "Added task <strong>\"Create website\"</strong> to \"Astroman Loyal Club\"",
-      "color": "#D97706",
-      "time": 1772361031648
     }
   ]
 }
