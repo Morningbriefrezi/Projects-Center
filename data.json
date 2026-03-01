@@ -32,7 +32,7 @@
           "done": false
         },
         {
-          "name": "deplloy",
+          "name": "deploy",
           "done": false
         }
       ],
@@ -166,9 +166,9 @@
   ],
   "activity": [
     {
-      "msg": "Added task <strong>\"deplloy\"</strong> to \"Night Skywatcher\"",
+      "msg": "Added task <strong>\"deploy\"</strong> to \"Night Skywatcher\"",
       "color": "#D97706",
-      "time": 1772361427486
+      "time": 1772361431783
     },
     {
       "msg": "Added task <strong>\"create marketing plan for deployment\"</strong> to \"Night Skywatcher\"",
