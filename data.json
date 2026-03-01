@@ -18,6 +18,10 @@
         {
           "name": "5 different moon lamp design",
           "done": false
+        },
+        {
+          "name": "5 air humidifier",
+          "done": false
         }
       ],
       "notes": "",
@@ -277,6 +281,11 @@
   ],
   "activity": [
     {
+      "msg": "Added task <strong>\"5 air humidifier\"</strong> to \"Content For Week\"",
+      "color": "#111111",
+      "time": 1772404770584
+    },
+    {
       "msg": "Added task <strong>\"5 different moon lamp design\"</strong> to \"Content For Week\"",
       "color": "#111111",
       "time": 1772404764239
@@ -520,11 +529,6 @@
       "msg": "Added task <strong>\"soc medias\"</strong> to \"Ai company\"",
       "color": "#2563EB",
       "time": 1772356809036
-    },
-    {
-      "msg": "Added task <strong>\"logo\"</strong> to \"Ai company\"",
-      "color": "#2563EB",
-      "time": 1772356803389
     }
   ]
 }
