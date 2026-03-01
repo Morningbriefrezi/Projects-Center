@@ -26,6 +26,10 @@
         {
           "name": "business plan",
           "done": false
+        },
+        {
+          "name": "marketing plan",
+          "done": false
         }
       ],
       "notes": "",
@@ -38,6 +42,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"marketing plan\"</strong> to \"Ai company\"",
+      "color": "#2563EB",
+      "time": 1772356826351
+    },
     {
       "msg": "Added task <strong>\"business plan\"</strong> to \"Ai company\"",
       "color": "#2563EB",
