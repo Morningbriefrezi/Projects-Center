@@ -22,6 +22,10 @@
         {
           "name": "make it perfect.",
           "done": false
+        },
+        {
+          "name": "Manual Upload feature to add",
+          "done": false
         }
       ],
       "notes": "",
@@ -109,6 +113,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"Manual Upload feature to add\"</strong> to \"Astroman Loyal Club\"",
+      "color": "#D97706",
+      "time": 1772361288929
+    },
     {
       "msg": "Added task <strong>\"make it perfect.\"</strong> to \"Astroman Loyal Club\"",
       "color": "#D97706",
