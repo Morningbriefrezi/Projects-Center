@@ -265,7 +265,7 @@
     },
     {
       "id": 1772312387968,
-      "name": "Ai company",
+      "name": "Advance AI",
       "desc": "Ai",
       "type": "daily",
       "due": "2026-03-15",
@@ -321,6 +321,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Updated project <strong>\"Advance AI\"</strong>",
+      "color": "#2563EB",
+      "time": 1772405263108
+    },
     {
       "msg": "Added task <strong>\"check matematics and new registration.\"</strong> to \"Astroman Loyal Club\"",
       "color": "#D97706",
@@ -565,11 +570,6 @@
       "msg": "Created project <strong>\"Astroman Loyal Club\"</strong>",
       "color": "#D97706",
       "time": 1772361025658
-    },
-    {
-      "msg": "Updated project <strong>\"Ai company\"</strong>",
-      "color": "#2563EB",
-      "time": 1772357050214
     }
   ]
 }
