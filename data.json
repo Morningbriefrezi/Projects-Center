@@ -172,7 +172,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🌃",
-      "progress": 50,
+      "progress": 43,
       "tasks": [
         {
           "name": "cretate website",
@@ -196,6 +196,10 @@
         },
         {
           "name": "deploy",
+          "done": false
+        },
+        {
+          "name": "ტელესკოპის რენდომ",
           "done": false
         }
       ],
@@ -340,6 +344,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"ტელესკოპის რენდომ\"</strong> to \"Night Skywatcher\"",
+      "color": "#2563EB",
+      "time": 1772485219395
+    },
     {
       "msg": "Deleted task <strong>\"ტელესკოპოს რენდომ ჩვენება\"</strong> from \"Night Skywatcher\"",
       "color": "#DC2626",
@@ -584,11 +593,6 @@
       "msg": "Completed task <strong>\"test everything\"</strong>",
       "color": "#D97706",
       "time": 1772361435299
-    },
-    {
-      "msg": "Completed task <strong>\"add different features\"</strong>",
-      "color": "#D97706",
-      "time": 1772361434249
     }
   ]
 }
