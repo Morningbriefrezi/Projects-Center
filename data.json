@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id": 1772485066018,
+      "name": "Ticket ai",
+      "desc": "",
+      "type": "daily",
+      "due": "",
+      "priority": "med",
+      "color": "#2563EB",
+      "icon": "📌",
+      "progress": 0,
+      "tasks": [],
+      "notes": "",
+      "created": 1772485066018,
+      "reminder": {
+        "enabled": false,
+        "timing": "oneday",
+        "lastSent": null
+      }
+    },
+    {
       "id": 1772362170631,
       "name": "Content For Week",
       "desc": "Create visuals, product displays and sales for every week",
@@ -322,6 +341,11 @@
   ],
   "activity": [
     {
+      "msg": "Created project <strong>\"Ticket ai\"</strong>",
+      "color": "#2563EB",
+      "time": 1772485066019
+    },
+    {
       "msg": "Updated project <strong>\"Advance AI\"</strong>",
       "color": "#2563EB",
       "time": 1772406744330
@@ -565,11 +589,6 @@
       "msg": "Added task <strong>\"deploy\"</strong> to \"Night Skywatcher\"",
       "color": "#D97706",
       "time": 1772361431783
-    },
-    {
-      "msg": "Added task <strong>\"create marketing plan for deployment\"</strong> to \"Night Skywatcher\"",
-      "color": "#D97706",
-      "time": 1772361420680
     }
   ]
 }
