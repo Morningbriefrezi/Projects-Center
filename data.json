@@ -172,7 +172,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🌃",
-      "progress": 50,
+      "progress": 43,
       "tasks": [
         {
           "name": "cretate website",
@@ -196,6 +196,10 @@
         },
         {
           "name": "deploy",
+          "done": false
+        },
+        {
+          "name": "ტელესკოპის რენდომ ჩვენება",
           "done": false
         }
       ],
@@ -340,6 +344,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"ტელესკოპის რენდომ ჩვენება\"</strong> to \"Night Skywatcher\"",
+      "color": "#2563EB",
+      "time": 1772485231111
+    },
     {
       "msg": "Deleted task <strong>\"ტელესკოპის რენდომ\"</strong> from \"Night Skywatcher\"",
       "color": "#DC2626",
@@ -584,11 +593,6 @@
       "msg": "Added task <strong>\"name\"</strong> to \"Inventory Company\"",
       "color": "#E11D48",
       "time": 1772361508330
-    },
-    {
-      "msg": "Created project <strong>\"Inventory Company\"</strong>",
-      "color": "#E11D48",
-      "time": 1772361505079
     }
   ]
 }
