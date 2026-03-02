@@ -172,7 +172,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🌃",
-      "progress": 50,
+      "progress": 43,
       "tasks": [
         {
           "name": "cretate website",
@@ -196,6 +196,10 @@
         },
         {
           "name": "deploy",
+          "done": false
+        },
+        {
+          "name": "ტელესკოპოს რენდომ ჩვენება",
           "done": false
         }
       ],
@@ -340,6 +344,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"ტელესკოპოს რენდომ ჩვენება\"</strong> to \"Night Skywatcher\"",
+      "color": "#2563EB",
+      "time": 1772485201642
+    },
     {
       "msg": "Created project <strong>\"Ticket ai\"</strong>",
       "color": "#2563EB",
@@ -584,11 +593,6 @@
       "msg": "Completed task <strong>\"cretate website\"</strong>",
       "color": "#D97706",
       "time": 1772361433109
-    },
-    {
-      "msg": "Added task <strong>\"deploy\"</strong> to \"Night Skywatcher\"",
-      "color": "#D97706",
-      "time": 1772361431783
     }
   ]
 }
