@@ -12,10 +12,6 @@
       "progress": 0,
       "tasks": [
         {
-          "name": "street interview 2",
-          "done": false
-        },
-        {
           "name": "street interview 2, what comes first about astroman",
           "done": false
         }
@@ -373,6 +369,11 @@
   ],
   "activity": [
     {
+      "msg": "Deleted task <strong>\"street interview 2\"</strong> from \"Daily\"",
+      "color": "#DC2626",
+      "time": 1772542498929
+    },
+    {
       "msg": "Added task <strong>\"street interview 2, what comes first about astroman\"</strong> to \"Daily\"",
       "color": "#2563EB",
       "time": 1772542497084
@@ -616,11 +617,6 @@
       "msg": "Added task <strong>\"first moth marketing plan\"</strong> to \"Inventory Company\"",
       "color": "#E11D48",
       "time": 1772361532740
-    },
-    {
-      "msg": "Added task <strong>\"business suite and ads manager\"</strong> to \"Inventory Company\"",
-      "color": "#E11D48",
-      "time": 1772361524910
     }
   ]
 }
