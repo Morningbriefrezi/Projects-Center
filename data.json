@@ -22,6 +22,10 @@
         {
           "name": "televizoris chabareba",
           "done": false
+        },
+        {
+          "name": "ხათუნას გამოწერები",
+          "done": false
         }
       ],
       "notes": "",
@@ -377,6 +381,11 @@
   ],
   "activity": [
     {
+      "msg": "Added task <strong>\"ხათუნას გამოწერები\"</strong> to \"Daily\"",
+      "color": "#2563EB",
+      "time": 1772549969232
+    },
+    {
       "msg": "Updated project <strong>\"Daily\"</strong>",
       "color": "#2563EB",
       "time": 1772546766180
@@ -620,11 +629,6 @@
       "msg": "Added task <strong>\"add forgot password option\"</strong> to \"Astroman Loyal Club\"",
       "color": "#D97706",
       "time": 1772361784181
-    },
-    {
-      "msg": "Added task <strong>\"admin page setup\"</strong> to \"Astroman Loyal Club\"",
-      "color": "#D97706",
-      "time": 1772361777656
     }
   ]
 }
