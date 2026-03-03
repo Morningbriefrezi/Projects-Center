@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id": 1772542366810,
+      "name": "Daily",
+      "desc": "daily activities",
+      "type": "daily",
+      "due": "",
+      "priority": "high",
+      "color": "#2563EB",
+      "icon": "🎯",
+      "progress": 0,
+      "tasks": [],
+      "notes": "",
+      "created": 1772542366810,
+      "reminder": {
+        "enabled": true,
+        "timing": "today",
+        "lastSent": null
+      }
+    },
+    {
       "id": 1772485066018,
       "name": "Ticket ai",
       "desc": "",
@@ -345,6 +364,11 @@
   ],
   "activity": [
     {
+      "msg": "Created project <strong>\"Daily\"</strong>",
+      "color": "#2563EB",
+      "time": 1772542366811
+    },
+    {
       "msg": "Added task <strong>\"ტელესკოპის რენდომ ჩვენება\"</strong> to \"Night Skywatcher\"",
       "color": "#2563EB",
       "time": 1772485231111
@@ -588,11 +612,6 @@
       "msg": "Added task <strong>\"logo\"</strong> to \"Inventory Company\"",
       "color": "#E11D48",
       "time": 1772361510791
-    },
-    {
-      "msg": "Added task <strong>\"name\"</strong> to \"Inventory Company\"",
-      "color": "#E11D48",
-      "time": 1772361508330
     }
   ]
 }
