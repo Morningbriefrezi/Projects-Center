@@ -9,7 +9,7 @@
       "priority": "high",
       "color": "#2563EB",
       "icon": "🎯",
-      "progress": 9,
+      "progress": 0,
       "tasks": [
         {
           "name": "street interview 2, what comes first about astroman",
@@ -377,6 +377,11 @@
   ],
   "activity": [
     {
+      "msg": "Progress updated to <strong>0%</strong> on \"Daily\"",
+      "color": "#2563EB",
+      "time": 1772545205509
+    },
+    {
       "msg": "Progress updated to <strong>9%</strong> on \"Daily\"",
       "color": "#2563EB",
       "time": 1772545202367
@@ -620,11 +625,6 @@
       "msg": "Deleted task <strong>\"deplou\"</strong> from \"Inventory Company\"",
       "color": "#DC2626",
       "time": 1772361584173
-    },
-    {
-      "msg": "Added task <strong>\"deplou\"</strong> to \"Inventory Company\"",
-      "color": "#E11D48",
-      "time": 1772361581721
     }
   ]
 }
