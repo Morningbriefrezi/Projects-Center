@@ -6,6 +6,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>Projects Center</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Crect width='36' height='36' rx='10' fill='%23111827'/%3E%3Crect x='6' y='9' width='24' height='3.5' rx='1.75' fill='white' opacity='0.1'/%3E%3Crect x='6' y='9' width='17' height='3.5' rx='1.75' fill='%2360A5FA'/%3E%3Crect x='6' y='16' width='24' height='3.5' rx='1.75' fill='white' opacity='0.1'/%3E%3Crect x='6' y='16' width='10' height='3.5' rx='1.75' fill='%2334D399'/%3E%3Crect x='6' y='23' width='24' height='3.5' rx='1.75' fill='white' opacity='0.1'/%3E%3Crect x='6' y='23' width='19' height='3.5' rx='1.75' fill='%23FBBF24'/%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 /* ── Tokens ── */
@@ -23,16 +24,69 @@
 }
 [data-theme="dark"]{
   --bg:#0D0D0C;--bg2:#131311;--bg3:#1A1A17;
-  --surface:#181816;--surface2:#1E1E1B;
-  --border:#252420;--border2:#302E28;
-  --text:#F0EDE7;--text2:#7A7772;--text3:#3E3C37;
-  --shadow:0 1px 2px rgba(0,0,0,0.3),0 4px 16px rgba(0,0,0,0.2);
-  --shadow-md:0 4px 20px rgba(0,0,0,0.35);
-  --shadow-lg:0 12px 48px rgba(0,0,0,0.5);
-  --sb:#0A0A09;--sb-t:#F0EDE7;--sb-t2:#5A5854;--sb-t3:#302E2A;
-  --sb-hover:rgba(255,255,255,0.04);--sb-active:rgba(255,255,255,0.08);
-  --sb-border:rgba(255,255,255,0.06);
+  --surface:rgba(26,26,23,0.75);--surface2:rgba(30,30,27,0.8);
+  --border:rgba(255,255,255,0.09);--border2:rgba(255,255,255,0.16);
+  --text:#F0EDE7;--text2:#B8B4AE;--text3:#6A6762;
+  --shadow:0 1px 2px rgba(0,0,0,0.4),0 4px 16px rgba(0,0,0,0.3);
+  --shadow-md:0 4px 24px rgba(0,0,0,0.5);
+  --shadow-lg:0 16px 56px rgba(0,0,0,0.65);
+  --sb:#0A0A09;--sb-t:#F0EDE7;--sb-t2:#A8A4A0;--sb-t3:#6A6762;
+  --sb-hover:rgba(255,255,255,0.07);--sb-active:rgba(255,255,255,0.12);
+  --sb-border:rgba(255,255,255,0.1);
 }
+/* ── Dark mode glass & visibility ── */
+[data-theme="dark"] .card,
+[data-theme="dark"] .kpi,
+[data-theme="dark"] .pcard,
+[data-theme="dark"] .detail-hd,
+[data-theme="dark"] .dkpi,
+[data-theme="dark"] .modal {
+  background: rgba(22,22,20,0.72);
+  backdrop-filter: blur(18px) saturate(1.4);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+  border-color: rgba(255,255,255,0.1);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.06);
+}
+[data-theme="dark"] .topbar {
+  background: rgba(14,14,12,0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom-color: rgba(255,255,255,0.08);
+}
+[data-theme="dark"] .logo-name {
+  color: #F0EDE7;
+  font-weight: 900;
+  letter-spacing: -.1px;
+}
+[data-theme="dark"] .logo-tag {
+  color: #A8A4A0;
+  letter-spacing: 1.8px;
+}
+[data-theme="dark"] .sb-label {
+  color: #8A8682;
+}
+[data-theme="dark"] .kpi-label,
+[data-theme="dark"] .card-meta,
+[data-theme="dark"] .prog-hd-label,
+[data-theme="dark"] .dkpi-label,
+[data-theme="dark"] .section-hd-meta {
+  color: #8A8682;
+}
+[data-theme="dark"] .section-hd-title,
+[data-theme="dark"] .card-title,
+[data-theme="dark"] .pcard-name,
+[data-theme="dark"] .detail-title,
+[data-theme="dark"] .topbar-title,
+[data-theme="dark"] .dash-line2 {
+  color: #F0EDE7;
+}
+[data-theme="dark"] .topbar-crumb,
+[data-theme="dark"] .pcard-desc,
+[data-theme="dark"] .dash-line1,
+[data-theme="dark"] .dash-sub {
+  color: #B8B4AE;
+}
+
 :root{
   --blue:#2563EB;--blue-lt:rgba(37,99,235,0.1);
   --green:#16A34A;--green-lt:rgba(22,163,74,0.1);
@@ -709,10 +763,10 @@ document.addEventListener('visibilitychange', () => {
   if (!document.hidden && isGHConfigured()) pullFromGitHub();
 });
 
-// Poll every 30s so changes appear without manual refresh
+// Poll every 2 minutes so changes appear without manual refresh
 setInterval(() => {
   if (!document.hidden && isGHConfigured()) pullFromGitHub();
-}, 30000);
+}, 120000);
 
 // Save: localStorage immediately, GitHub debounced 700ms
 function save() {
@@ -787,6 +841,47 @@ function checkRemindersOnLoad() {
   });
   localStorage.setItem('r_sent', JSON.stringify(sent));
 }
+
+// ── 16:00 daily digest (browser-side, fires when app is open) ────────────────
+function sendDailyDigest() {
+  if (!tgToken() || !tgChat()) return;
+  const digestKey = 'digest_' + new Date().toDateString();
+  if (localStorage.getItem(digestKey)) return;          // already sent today
+
+  const active = D.filter(p => p.progress < 100);
+  const now = new Date();
+  let msg;
+  if (active.length > 0) {
+    const lines = active.map(p => {
+      const bar    = Math.round(p.progress / 10);
+      const filled = '█'.repeat(bar) + '░'.repeat(10 - bar);
+      const dueStr = p.due
+        ? ` · due ${new Date(p.due).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`
+        : '';
+      return `📌 <b>${p.name}</b>${dueStr}\n   [${filled}] ${p.progress}%`;
+    });
+    msg = `📋 <b>Daily Digest — ${now.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}</b>\n` +
+          `<i>${active.length} active project${active.length !== 1 ? 's' : ''}</i>\n\n` +
+          lines.join('\n\n');
+  } else {
+    msg = '✅ <b>All projects complete!</b>\nNo active tasks today. Great work!';
+  }
+  sendTelegram(msg);
+  localStorage.setItem(digestKey, '1');
+}
+
+function scheduleDailyDigest() {
+  const now  = new Date();
+  const next = new Date(now);
+  next.setHours(16, 0, 0, 0);
+  if (next <= now) next.setDate(next.getDate() + 1);   // already past 16:00 — schedule tomorrow
+  const msUntil = next - now;
+  setTimeout(() => {
+    sendDailyDigest();
+    setInterval(sendDailyDigest, 24 * 60 * 60 * 1000); // repeat daily
+  }, msUntil);
+}
+scheduleDailyDigest();
 
 // ══════════════════════════════════════════════════════════
 //  SETUP MODAL

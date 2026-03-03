@@ -1,6 +1,8 @@
 /**
  * check_reminders.js
- * Run by GitHub Actions cron — reads data.json, sends Telegram reminders.
+ * Run by GitHub Actions cron at 16:00 Tbilisi (12:00 UTC) daily.
+ * Sends a digest of ALL active tasks to Telegram, then sends individual
+ * due-date reminders for projects nearing their deadline.
  * Commits updated lastSent timestamps back to repo.
  */
 
@@ -46,6 +48,31 @@ function sendTelegram(text) {
 async function main() {
   let changed = false;
 
+  // ── 1. Daily active-tasks digest ───────────────────────────────────────────
+  const active = projects.filter(p => p.progress < 100);
+  if (active.length > 0) {
+    const lines = active.map(p => {
+      const bar   = Math.round(p.progress / 10);
+      const filled = '█'.repeat(bar) + '░'.repeat(10 - bar);
+      const dueInfo = p.due
+        ? ` · due ${new Date(p.due).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`
+        : '';
+      return `📌 <b>${p.name}</b>${dueInfo}\n   [${filled}] ${p.progress}%`;
+    });
+
+    const digest =
+      `📋 <b>Daily Task Digest — ${now.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}</b>\n` +
+      `<i>${active.length} active project${active.length !== 1 ? 's' : ''}</i>\n\n` +
+      lines.join('\n\n');
+
+    await sendTelegram(digest);
+    console.log(`[digest] Sent daily digest (${active.length} active projects)`);
+  } else {
+    await sendTelegram('✅ <b>All projects complete!</b>\nNo active tasks for today. Keep it up!');
+    console.log('[digest] All done — sent completion message');
+  }
+
+  // ── 2. Individual due-date reminders ───────────────────────────────────────
   for (const p of projects) {
     if (!p.reminder?.enabled || !p.due || p.progress >= 100) continue;
 
@@ -64,7 +91,7 @@ async function main() {
     else                     msg = `⏰ <b>Reminder</b>\n📌 "${p.name}"\nDue in ${daysLeft}d · ${p.progress}% done`;
 
     await sendTelegram(msg);
-    console.log(`Sent reminder for "${p.name}" (${daysLeft}d left)`);
+    console.log(`[reminder] Sent for "${p.name}" (${daysLeft}d left)`);
 
     p.reminder.lastSent = now.toISOString();
     changed = true;
@@ -74,8 +101,6 @@ async function main() {
     data.projects = projects;
     fs.writeFileSync('data.json', JSON.stringify(data, null, 2));
     console.log('Updated data.json with lastSent timestamps.');
-  } else {
-    console.log('No reminders due today.');
   }
 }
 
