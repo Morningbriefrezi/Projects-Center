@@ -112,7 +112,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🌍",
-      "progress": 48,
+      "progress": 0,
       "tasks": [
         {
           "name": "add clubs page",
@@ -381,6 +381,11 @@
   ],
   "activity": [
     {
+      "msg": "Progress updated to <strong>0%</strong> on \"Current Website Update\"",
+      "color": "#2563EB",
+      "time": 1772570283011
+    },
+    {
       "msg": "Progress updated to <strong>48%</strong> on \"Current Website Update\"",
       "color": "#2563EB",
       "time": 1772570280708
@@ -624,11 +629,6 @@
       "msg": "Created project <strong>\"Content For Week\"</strong>",
       "color": "#111111",
       "time": 1772362170632
-    },
-    {
-      "msg": "Updated project <strong>\"Current Website Update\"</strong>",
-      "color": "#7C3AED",
-      "time": 1772362119628
     }
   ]
 }
