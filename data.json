@@ -208,7 +208,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🌃",
-      "progress": 100,
+      "progress": 35,
       "tasks": [
         {
           "name": "cretate website",
@@ -380,6 +380,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Progress updated to <strong>35%</strong> on \"Night Skywatcher\"",
+      "color": "#2563EB",
+      "time": 1772614287255
+    },
     {
       "msg": "Progress updated to <strong>0%</strong> on \"Current Website Update\"",
       "color": "#2563EB",
@@ -624,11 +629,6 @@
       "msg": "Added task <strong>\"5 telescope designs\"</strong> to \"Content For Week\"",
       "color": "#111111",
       "time": 1772404752810
-    },
-    {
-      "msg": "Created project <strong>\"Content For Week\"</strong>",
-      "color": "#111111",
-      "time": 1772362170632
     }
   ]
 }
