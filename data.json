@@ -208,7 +208,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🌃",
-      "progress": 35,
+      "progress": 41,
       "tasks": [
         {
           "name": "cretate website",
@@ -380,6 +380,21 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Progress updated to <strong>41%</strong> on \"Night Skywatcher\"",
+      "color": "#2563EB",
+      "time": 1772614289411
+    },
+    {
+      "msg": "Progress updated to <strong>38%</strong> on \"Night Skywatcher\"",
+      "color": "#2563EB",
+      "time": 1772614289082
+    },
+    {
+      "msg": "Progress updated to <strong>37%</strong> on \"Night Skywatcher\"",
+      "color": "#2563EB",
+      "time": 1772614288481
+    },
     {
       "msg": "Progress updated to <strong>35%</strong> on \"Night Skywatcher\"",
       "color": "#2563EB",
@@ -614,21 +629,6 @@
       "msg": "Added task <strong>\"5 projector\"</strong> to \"Content For Week\"",
       "color": "#111111",
       "time": 1772404774386
-    },
-    {
-      "msg": "Added task <strong>\"5 air humidifier\"</strong> to \"Content For Week\"",
-      "color": "#111111",
-      "time": 1772404770584
-    },
-    {
-      "msg": "Added task <strong>\"5 different moon lamp design\"</strong> to \"Content For Week\"",
-      "color": "#111111",
-      "time": 1772404764239
-    },
-    {
-      "msg": "Added task <strong>\"5 telescope designs\"</strong> to \"Content For Week\"",
-      "color": "#111111",
-      "time": 1772404752810
     }
   ]
 }
