@@ -6,7 +6,7 @@
       "desc": "daily activities",
       "type": "daily",
       "due": "",
-      "priority": "high",
+      "priority": "med",
       "color": "#2563EB",
       "icon": "🎯",
       "progress": 0,
@@ -385,6 +385,11 @@
   ],
   "activity": [
     {
+      "msg": "Priority set to <strong>med</strong> on \"Daily\"",
+      "color": "#2563EB",
+      "time": 1772647586469
+    },
+    {
       "msg": "Added task <strong>\"მაისურების დამზადება 20ც, 5ც დარიგება\"</strong> to \"Daily\"",
       "color": "#2563EB",
       "time": 1772646588029
@@ -628,11 +633,6 @@
       "msg": "Added task <strong>\"5. kids toy\"</strong> to \"Content For Week\"",
       "color": "#111111",
       "time": 1772404784616
-    },
-    {
-      "msg": "Added task <strong>\"5 cosmonaut decoration\"</strong> to \"Content For Week\"",
-      "color": "#111111",
-      "time": 1772404779562
     }
   ]
 }
