@@ -41,25 +41,6 @@
       }
     },
     {
-      "id": 1772485066018,
-      "name": "Ticket ai",
-      "desc": "",
-      "type": "weekly",
-      "due": "",
-      "priority": "med",
-      "color": "#2563EB",
-      "icon": "📌",
-      "progress": 0,
-      "tasks": [],
-      "notes": "",
-      "created": 1772485066018,
-      "reminder": {
-        "enabled": false,
-        "timing": "oneday",
-        "lastSent": null
-      }
-    },
-    {
       "id": 1772362170631,
       "name": "Content For Week",
       "desc": "Create visuals, product displays and sales for every week",
@@ -385,6 +366,11 @@
   ],
   "activity": [
     {
+      "msg": "Deleted project <strong>\"Ticket ai\"</strong>",
+      "color": "#DC2626",
+      "time": 1772647604503
+    },
+    {
       "msg": "Priority set to <strong>med</strong> on \"Daily\"",
       "color": "#2563EB",
       "time": 1772647595964
@@ -628,11 +614,6 @@
       "msg": "Added task <strong>\"make product page more convertable\"</strong> to \"Current Website Update\"",
       "color": "#7C3AED",
       "time": 1772404837160
-    },
-    {
-      "msg": "Added task <strong>\"add one more buit in ai\"</strong> to \"Current Website Update\"",
-      "color": "#7C3AED",
-      "time": 1772404827317
     }
   ]
 }
