@@ -26,6 +26,10 @@
         {
           "name": "ხათუნას გამოწერები",
           "done": false
+        },
+        {
+          "name": "მაისურების დამზადება 20ც, 5ც დარიგება",
+          "done": false
         }
       ],
       "notes": "",
@@ -381,6 +385,11 @@
   ],
   "activity": [
     {
+      "msg": "Added task <strong>\"მაისურების დამზადება 20ც, 5ც დარიგება\"</strong> to \"Daily\"",
+      "color": "#2563EB",
+      "time": 1772646588029
+    },
+    {
       "msg": "Progress updated to <strong>41%</strong> on \"Night Skywatcher\"",
       "color": "#2563EB",
       "time": 1772614289411
@@ -624,11 +633,6 @@
       "msg": "Added task <strong>\"5 cosmonaut decoration\"</strong> to \"Content For Week\"",
       "color": "#111111",
       "time": 1772404779562
-    },
-    {
-      "msg": "Added task <strong>\"5 projector\"</strong> to \"Content For Week\"",
-      "color": "#111111",
-      "time": 1772404774386
     }
   ]
 }
