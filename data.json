@@ -387,6 +387,16 @@
     {
       "msg": "Priority set to <strong>med</strong> on \"Daily\"",
       "color": "#2563EB",
+      "time": 1772647588359
+    },
+    {
+      "msg": "Priority set to <strong>high</strong> on \"Daily\"",
+      "color": "#2563EB",
+      "time": 1772647587707
+    },
+    {
+      "msg": "Priority set to <strong>med</strong> on \"Daily\"",
+      "color": "#2563EB",
       "time": 1772647586469
     },
     {
@@ -623,16 +633,6 @@
       "msg": "Added task <strong>\"add clubs page\"</strong> to \"Current Website Update\"",
       "color": "#7C3AED",
       "time": 1772404809779
-    },
-    {
-      "msg": "Added task <strong>\"5 random lamp\"</strong> to \"Content For Week\"",
-      "color": "#111111",
-      "time": 1772404793017
-    },
-    {
-      "msg": "Added task <strong>\"5. kids toy\"</strong> to \"Content For Week\"",
-      "color": "#111111",
-      "time": 1772404784616
     }
   ]
 }
