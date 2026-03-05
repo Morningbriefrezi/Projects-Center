@@ -34,6 +34,10 @@
         {
           "name": "optimo last import update",
           "done": false
+        },
+        {
+          "name": "astroman excel march update",
+          "done": false
         }
       ],
       "notes": "",
@@ -370,6 +374,11 @@
   ],
   "activity": [
     {
+      "msg": "Added task <strong>\"astroman excel march update\"</strong> to \"Daily\"",
+      "color": "#2563EB",
+      "time": 1772729451622
+    },
+    {
       "msg": "Added task <strong>\"optimo last import update\"</strong> to \"Daily\"",
       "color": "#2563EB",
       "time": 1772729444468
@@ -613,11 +622,6 @@
       "msg": "Added task <strong>\"check matematics and new registration.\"</strong> to \"Astroman Loyal Club\"",
       "color": "#D97706",
       "time": 1772404893095
-    },
-    {
-      "msg": "Added task <strong>\"ask claude how to improve system of the web\"</strong> to \"Current Website Update\"",
-      "color": "#7C3AED",
-      "time": 1772404858715
     }
   ]
 }
