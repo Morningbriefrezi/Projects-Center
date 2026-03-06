@@ -9,7 +9,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🎯",
-      "progress": 29,
+      "progress": 43,
       "tasks": [
         {
           "name": "street interview 2, what comes first about astroman",
@@ -25,7 +25,7 @@
         },
         {
           "name": "ხათუნას გამოწერები",
-          "done": false
+          "done": true
         },
         {
           "name": "მაისურების დამზადება 20ც, 5ც დარიგება",
@@ -374,6 +374,11 @@
   ],
   "activity": [
     {
+      "msg": "Completed task <strong>\"ხათუნას გამოწერები\"</strong>",
+      "color": "#2563EB",
+      "time": 1772795047829
+    },
+    {
       "msg": "Completed task <strong>\"astroman excel march update\"</strong>",
       "color": "#2563EB",
       "time": 1772795044210
@@ -617,11 +622,6 @@
       "msg": "Completed task <strong>\"logo\"</strong>",
       "color": "#2563EB",
       "time": 1772405990090
-    },
-    {
-      "msg": "Completed task <strong>\"name\"</strong>",
-      "color": "#2563EB",
-      "time": 1772405264993
     }
   ]
 }
