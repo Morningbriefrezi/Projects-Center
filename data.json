@@ -9,7 +9,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🎯",
-      "progress": 0,
+      "progress": 14,
       "tasks": [
         {
           "name": "street interview 2, what comes first about astroman",
@@ -33,7 +33,7 @@
         },
         {
           "name": "optimo last import update",
-          "done": false
+          "done": true
         },
         {
           "name": "astroman excel march update",
@@ -374,6 +374,11 @@
   ],
   "activity": [
     {
+      "msg": "Completed task <strong>\"optimo last import update\"</strong>",
+      "color": "#2563EB",
+      "time": 1772795043100
+    },
+    {
       "msg": "Added task <strong>\"astroman excel march update\"</strong> to \"Daily\"",
       "color": "#2563EB",
       "time": 1772729451622
@@ -617,11 +622,6 @@
       "msg": "Updated project <strong>\"Advance AI\"</strong>",
       "color": "#2563EB",
       "time": 1772405263108
-    },
-    {
-      "msg": "Added task <strong>\"check matematics and new registration.\"</strong> to \"Astroman Loyal Club\"",
-      "color": "#D97706",
-      "time": 1772404893095
     }
   ]
 }
