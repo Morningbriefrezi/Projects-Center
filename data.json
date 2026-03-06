@@ -9,7 +9,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🎯",
-      "progress": 43,
+      "progress": 57,
       "tasks": [
         {
           "name": "street interview 2, what comes first about astroman",
@@ -17,7 +17,7 @@
         },
         {
           "name": "3 video ideas",
-          "done": false
+          "done": true
         },
         {
           "name": "televizoris chabareba",
@@ -374,6 +374,11 @@
   ],
   "activity": [
     {
+      "msg": "Completed task <strong>\"3 video ideas\"</strong>",
+      "color": "#2563EB",
+      "time": 1772795052416
+    },
+    {
       "msg": "Completed task <strong>\"ხათუნას გამოწერები\"</strong>",
       "color": "#2563EB",
       "time": 1772795047829
@@ -617,11 +622,6 @@
       "msg": "Updated project <strong>\"Content For Week\"</strong>",
       "color": "#2563EB",
       "time": 1772406574043
-    },
-    {
-      "msg": "Completed task <strong>\"logo\"</strong>",
-      "color": "#2563EB",
-      "time": 1772405990090
     }
   ]
 }
