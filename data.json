@@ -318,6 +318,10 @@
         {
           "name": "test",
           "done": false
+        },
+        {
+          "name": "deplou",
+          "done": false
         }
       ],
       "notes": "",
@@ -386,6 +390,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"deplou\"</strong> to \"Auto Content Creator\"",
+      "color": "#2563EB",
+      "time": 1772920272874
+    },
     {
       "msg": "Added task <strong>\"test\"</strong> to \"Auto Content Creator\"",
       "color": "#2563EB",
@@ -630,11 +639,6 @@
       "msg": "Updated project <strong>\"Content For Week\"</strong>",
       "color": "#2563EB",
       "time": 1772406618836
-    },
-    {
-      "msg": "Updated project <strong>\"Auto Content Creator\"</strong>",
-      "color": "#2563EB",
-      "time": 1772406605001
     }
   ]
 }
