@@ -237,7 +237,7 @@
       "reminder": {
         "enabled": true,
         "timing": "threedays",
-        "lastSent": null
+        "lastSent": "2026-03-08T12:29:24.239Z"
       }
     },
     {
@@ -293,7 +293,7 @@
       "reminder": {
         "enabled": true,
         "timing": "threedays",
-        "lastSent": null
+        "lastSent": "2026-03-08T12:29:24.239Z"
       }
     },
     {
