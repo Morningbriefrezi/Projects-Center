@@ -9,7 +9,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🎯",
-      "progress": 75,
+      "progress": 67,
       "tasks": [
         {
           "name": "street interview 2, what comes first about astroman",
@@ -41,6 +41,10 @@
         },
         {
           "name": "make finance app for astroman",
+          "done": false
+        },
+        {
+          "name": "jason new order",
           "done": false
         }
       ],
@@ -403,6 +407,11 @@
   ],
   "activity": [
     {
+      "msg": "Added task <strong>\"jason new order\"</strong> to \"Daily\"",
+      "color": "#2563EB",
+      "time": 1773060042136
+    },
+    {
       "msg": "Completed task <strong>\"add forgot password option\"</strong>",
       "color": "#2563EB",
       "time": 1773056870643
@@ -646,11 +655,6 @@
       "msg": "Added task <strong>\"ტელესკოპის რენდომ\"</strong> to \"Night Skywatcher\"",
       "color": "#2563EB",
       "time": 1772485219395
-    },
-    {
-      "msg": "Deleted task <strong>\"ტელესკოპოს რენდომ ჩვენება\"</strong> from \"Night Skywatcher\"",
-      "color": "#DC2626",
-      "time": 1772485207161
     }
   ]
 }
