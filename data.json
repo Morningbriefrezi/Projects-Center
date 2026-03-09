@@ -14,6 +14,10 @@
         {
           "name": "create a plan",
           "done": false
+        },
+        {
+          "name": "app idea, name, etc",
+          "done": false
         }
       ],
       "notes": "",
@@ -431,6 +435,11 @@
   ],
   "activity": [
     {
+      "msg": "Added task <strong>\"app idea, name, etc\"</strong> to \"Weekend Coding Event\"",
+      "color": "#2563EB",
+      "time": 1773086915210
+    },
+    {
       "msg": "Added task <strong>\"create a plan\"</strong> to \"Weekend Coding Event\"",
       "color": "#2563EB",
       "time": 1773086909169
@@ -674,11 +683,6 @@
       "msg": "Deleted task <strong>\"street interview 2\"</strong> from \"Daily\"",
       "color": "#DC2626",
       "time": 1772542498929
-    },
-    {
-      "msg": "Added task <strong>\"street interview 2, what comes first about astroman\"</strong> to \"Daily\"",
-      "color": "#2563EB",
-      "time": 1772542497084
     }
   ]
 }
