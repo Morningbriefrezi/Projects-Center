@@ -9,7 +9,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🎯",
-      "progress": 86,
+      "progress": 75,
       "tasks": [
         {
           "name": "street interview 2, what comes first about astroman",
@@ -38,6 +38,10 @@
         {
           "name": "astroman excel march update",
           "done": true
+        },
+        {
+          "name": "make finance app for astroman",
+          "done": false
         }
       ],
       "notes": "",
@@ -399,6 +403,11 @@
   ],
   "activity": [
     {
+      "msg": "Added task <strong>\"make finance app for astroman\"</strong> to \"Daily\"",
+      "color": "#2563EB",
+      "time": 1773044062296
+    },
+    {
       "msg": "Completed task <strong>\"Manual Upload feature to add\"</strong>",
       "color": "#2563EB",
       "time": 1772973585767
@@ -642,11 +651,6 @@
       "msg": "Added task <strong>\"ტელესკოპოს რენდომ ჩვენება\"</strong> to \"Night Skywatcher\"",
       "color": "#2563EB",
       "time": 1772485201642
-    },
-    {
-      "msg": "Created project <strong>\"Ticket ai\"</strong>",
-      "color": "#2563EB",
-      "time": 1772485066019
     }
   ]
 }
