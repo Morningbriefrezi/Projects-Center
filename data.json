@@ -181,62 +181,6 @@
       }
     },
     {
-      "id": 1772361505078,
-      "name": "Inventory Company",
-      "desc": "Fully automatic company about importing different inventory from china and turkety",
-      "type": "weekly",
-      "due": "2026-03-20",
-      "priority": "med",
-      "color": "#2563EB",
-      "icon": "⚒️",
-      "progress": 0,
-      "tasks": [
-        {
-          "name": "name",
-          "done": false
-        },
-        {
-          "name": "logo",
-          "done": false
-        },
-        {
-          "name": "Social pages",
-          "done": false
-        },
-        {
-          "name": "business suite and ads manager",
-          "done": false
-        },
-        {
-          "name": "first moth marketing plan",
-          "done": false
-        },
-        {
-          "name": "create automation for this plan",
-          "done": false
-        },
-        {
-          "name": "create 1 month visuals",
-          "done": false
-        },
-        {
-          "name": "plan posts and ads",
-          "done": false
-        },
-        {
-          "name": "deploy",
-          "done": false
-        }
-      ],
-      "notes": "",
-      "created": 1772361505078,
-      "reminder": {
-        "enabled": false,
-        "timing": "oneday",
-        "lastSent": null
-      }
-    },
-    {
       "id": 1772361382049,
       "name": "Night Skywatcher",
       "desc": "Sky watching app for astroman",
@@ -442,6 +386,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Deleted project <strong>\"Inventory Company\"</strong>",
+      "color": "#DC2626",
+      "time": 1773142935402
+    },
     {
       "msg": "Added task <strong>\"learn the plan\"</strong> to \"Weekend Coding Event\"",
       "color": "#2563EB",
@@ -686,11 +635,6 @@
       "msg": "Updated project <strong>\"Inventory Company\"</strong>",
       "color": "#2563EB",
       "time": 1772545686663
-    },
-    {
-      "msg": "Updated project <strong>\"Ticket ai\"</strong>",
-      "color": "#2563EB",
-      "time": 1772545681356
     }
   ]
 }
