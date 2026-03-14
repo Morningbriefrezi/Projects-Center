@@ -9,7 +9,7 @@
       "priority": "high",
       "color": "#2563EB",
       "icon": "📌",
-      "progress": 60,
+      "progress": 50,
       "tasks": [
         {
           "name": "create a plan",
@@ -29,6 +29,10 @@
         },
         {
           "name": "has to be a problem solving",
+          "done": false
+        },
+        {
+          "name": "replit.com",
           "done": false
         }
       ],
@@ -391,6 +395,11 @@
   ],
   "activity": [
     {
+      "msg": "Added task <strong>\"replit.com\"</strong> to \"Weekend Coding Event\"",
+      "color": "#2563EB",
+      "time": 1773488035981
+    },
+    {
       "msg": "Completed task <strong>\"learn the plan\"</strong>",
       "color": "#2563EB",
       "time": 1773476912039
@@ -634,11 +643,6 @@
       "msg": "Progress updated to <strong>35%</strong> on \"Night Skywatcher\"",
       "color": "#2563EB",
       "time": 1772614287255
-    },
-    {
-      "msg": "Progress updated to <strong>0%</strong> on \"Current Website Update\"",
-      "color": "#2563EB",
-      "time": 1772570283011
     }
   ]
 }
