@@ -205,7 +205,7 @@
       "priority": "med",
       "color": "#2563EB",
       "icon": "🌃",
-      "progress": 57,
+      "progress": 50,
       "tasks": [
         {
           "name": "cretate website",
@@ -234,6 +234,10 @@
         {
           "name": "ტელესკოპის რენდომ ჩვენება",
           "done": true
+        },
+        {
+          "name": "redisign it with my existing app. make it work.",
+          "done": false
         }
       ],
       "notes": "",
@@ -402,6 +406,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Added task <strong>\"redisign it with my existing app. make it work.\"</strong> to \"Night Skywatcher\"",
+      "color": "#2563EB",
+      "time": 1773667986902
+    },
     {
       "msg": "Added task <strong>\"extrar Ge finalize\"</strong> to \"Daily\"",
       "color": "#2563EB",
@@ -646,11 +655,6 @@
       "msg": "Priority set to <strong>med</strong> on \"Daily\"",
       "color": "#2563EB",
       "time": 1772647588359
-    },
-    {
-      "msg": "Priority set to <strong>high</strong> on \"Daily\"",
-      "color": "#2563EB",
-      "time": 1772647587707
     }
   ]
 }
