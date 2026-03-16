@@ -9,7 +9,7 @@
       "priority": "high",
       "color": "#2563EB",
       "icon": "📌",
-      "progress": 50,
+      "progress": 83,
       "tasks": [
         {
           "name": "create a plan",
@@ -29,11 +29,11 @@
         },
         {
           "name": "has to be a problem solving",
-          "done": false
+          "done": true
         },
         {
           "name": "replit.com",
-          "done": false
+          "done": true
         }
       ],
       "notes": "I am building Proof of Observation — Strava for astronomy on Solana\nfor telescope owners at Georgia's first astronomy store\nthat solves no way to verify, reward, or share real stargazing\nby gamified sky missions with camera proof, satellite-verified conditions (FarmHawk), offline mesh submission (Pollinet), and NFT achievement minting — built from Scriptonia-generated specs",
@@ -395,6 +395,16 @@
   ],
   "activity": [
     {
+      "msg": "Completed task <strong>\"replit.com\"</strong>",
+      "color": "#2563EB",
+      "time": 1773664487331
+    },
+    {
+      "msg": "Completed task <strong>\"has to be a problem solving\"</strong>",
+      "color": "#2563EB",
+      "time": 1773664487011
+    },
+    {
       "msg": "Added task <strong>\"replit.com\"</strong> to \"Weekend Coding Event\"",
       "color": "#2563EB",
       "time": 1773488035981
@@ -633,16 +643,6 @@
       "msg": "Progress updated to <strong>38%</strong> on \"Night Skywatcher\"",
       "color": "#2563EB",
       "time": 1772614289082
-    },
-    {
-      "msg": "Progress updated to <strong>37%</strong> on \"Night Skywatcher\"",
-      "color": "#2563EB",
-      "time": 1772614288481
-    },
-    {
-      "msg": "Progress updated to <strong>35%</strong> on \"Night Skywatcher\"",
-      "color": "#2563EB",
-      "time": 1772614287255
     }
   ]
 }
